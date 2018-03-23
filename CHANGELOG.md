@@ -1,5 +1,5 @@
-MultiPass CHANGELOG
-===================
+MultiPass Disarmed CHANGELOG
+============================
 
 VERSION 0 FIRST BLOOD
 ---------------------

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title data-i18n="extName">MultiPass for HTTP basic authentication</title>
+        <title data-i18n="extName">MultiPass Disarmed for HTTP basic authentication</title>
         <link rel="stylesheet" type="text/css" href="css/chrome-bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
@@ -13,7 +13,7 @@
             <table class="credential-table">
                 <thead>
                     <tr>
-                        <th class="url" data-i18n="url_regexp">Url (regexp)</th>
+                        <th class="url" data-i18n="url_regexp">URL (regexp)</th>
                         <th class="username" data-i18n="username">Username</th>
                         <th class="password" data-i18n="password">Password</th>
                         <th class="action">&nbsp;</th>
@@ -27,7 +27,7 @@
                     <form id="credential-form">
                         <tr>
                             <td class="url">
-                                <label for="url" data-i18n="url">Url</label>
+                                <label for="url" data-i18n="url">URL</label>
                                 <input type="text" name="url" id="url" required="required">
                             </td>
                             <td class="username">
@@ -51,13 +51,13 @@
                 </tfoot>
             </table>
 
-            <h2 data-i18n="test_section">Test your regex</h2>
+            <h2 data-i18n="test_section">Test your regexp</h2>
 
             <form class="test-form">
                 <table class="form-table">
                     <tr>
                         <td>
-                            <label for="test-regex" data-i18n="tested_regex_label">Your regex: </label>
+                            <label for="test-regex" data-i18n="tested_regex_label">Your regexp: </label>
                         </td>
                         <td>
                             <input type="text" name="test-regex" id="test-regex">
@@ -127,30 +127,6 @@
             <h2 data-i18n="clear_section">Clear all credentials</h2>
 
             <button class="clear-all" data-i18n="clear_button">Clear all credentials</button>
-
-            <h2 data-i18n="analytics_section">Google Analytics</h2>
-
-            <form class="analytics-form">
-                <table class="form-table">
-                    <tr>
-                        <td>
-                            <input type="checkbox" id="analytics-enabled" name="analytics_enabled"/>
-                        </td>
-                        <td>
-                            <label for="analytics-enabled" data-i18n="analytics_enabled">Enable Google Analytics ?</label>
-                        </td>
-                    </tr>
-                </table>
-            </form>
-
-            <div class="footer">
-                <p>MultiPass - &copy; <a href="mailto:gilles@crettenand.info">Gilles Crettenand</a> - <span class="multipass-version"></span></p>
-                <p>
-                    <a href="http://www.wtfpl.net/">
-                        <img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png" width="80" height="15" alt="WTFPL"/>
-                    </a>
-                </p>
-            </div>
         </main>
 
         <div class="overlay" style="display: none;">

@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "MultiPass voor HTTP basic authenticatie"
+        "message": "MultiPass Disarmed voor HTTP basic auth"
     },
     "extDescription": {
         "message": "Log automatisch in via Basic Authenticatie doormiddel van een URL reguliere expressie."
@@ -9,7 +9,7 @@
         "message": "Inloggegevens"
     },
     "url_regexp": {
-        "message": "Url (regexp)"
+        "message": "URL (regexp)"
     },
     "username": {
         "message": "Gebruikersnaam"
@@ -88,13 +88,6 @@
     },
     "clear_button": {
         "message": "Wis alle gegevens"
-    },
-
-    "analytics_section": {
-        "message": "Google Analytics"
-    },
-    "analytics_enabled": {
-        "message": "Inschakelen van Google Analytics?"
     },
 
     "open_option_page": {

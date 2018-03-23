@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "MultiPass for HTTP basic authentication",
+        "message": "MultiPass Disarmed for HTTP basic auth",
         "description": "Name of the extension"
     },
     "extDescription": {
@@ -14,8 +14,8 @@
     },
 
     "url_regexp": {
-        "message": "Url (regexp)",
-        "description": "Url table header"
+        "message": "URL (regexp)",
+        "description": "URL table header"
     },
     "username": {
         "message": "Username",
@@ -69,16 +69,16 @@
     },
 
     "test_section": {
-        "message": "Test your regex",
+        "message": "Test your regexp",
         "description": "Test section title"
     },
     "tested_regex_label": {
-        "message": "Your regex:",
-        "description": "Label of the test regex input"
+        "message": "Your regexp:",
+        "description": "Label of the test regexp input"
     },
     "tested_urls": {
         "message": "URLs under test:",
-        "description": "Title near the list of tested regex."
+        "description": "Title near the list of tested regexp."
     },
 
     "import_section": {
@@ -126,15 +126,6 @@
     "clear_button": {
         "message": "Clear all credentials",
         "description": "Clear credentials button before confirmation"
-    },
-
-    "analytics_section": {
-        "message": "Google Analytics",
-        "description": "Google Analytics section title"
-    },
-    "analytics_enabled": {
-        "message": "Enable Google Analytics?",
-        "description": "Label for the Google Analytics checkbox."
     },
 
     "open_option_page": {

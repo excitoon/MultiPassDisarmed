@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "MultiPass pour authentification HTTP basique"
+        "message": "MultiPass Disarmed pour auth HTTP basique"
     },
     "extDescription": {
         "message": "Connexion automatique à une authentification HTTP basique en utilisant des données basées sur une expression régulière pour l'URL."
@@ -11,7 +11,7 @@
     },
 
     "url_regexp": {
-        "message": "Url (regexp)"
+        "message": "URL (regexp)"
     },
     "username": {
         "message": "Nom d'utilisateur"
@@ -96,13 +96,6 @@
     },
     "clear_button": {
         "message": "Supprimer toutes les entrées"
-    },
-
-    "analytics_section": {
-        "message": "Google Analytics"
-    },
-    "analytics_enabled": {
-        "message": "Activer Google Analytics ?"
     },
 
     "open_option_page": {

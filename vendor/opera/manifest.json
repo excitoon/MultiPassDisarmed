@@ -1,8 +1,8 @@
 {
     "developer": {
-        "name": "Gilles Crettenand",
-        "url": "http://gilles.crettenand.info"
+        "name": "Vladimir Chebotarev",
+        "url": "http://multipass.random.supplies/"
     },
 
-    "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'"
+    "content_security_policy": "script-src 'self'; object-src 'self'"
 }

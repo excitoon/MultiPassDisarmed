@@ -1,10 +1,10 @@
 {
-  "name": "MultiPass",
+  "name": "MultiPassDisarmed",
   "description": "Automatically login to Basic Authentication using data based on URL regexp.",
-  "author": "Gilles Crettenand <gilles@crettenand.info>",
+  "author": "Vladimir Chebotarev <vladimir.chebotarev@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/krtek4/MultiPass.git"
+    "url": "https://github.com/excitoon/MultiPassDisarmed.git"
   },
   "license": "WTFPL",
   "scripts": {

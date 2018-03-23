@@ -16,6 +16,10 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+footer p {
+  margin:0 0 5px;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -103,7 +107,7 @@ header {
 
 header ul {
   list-style:none;
-  height:40px;
+  height:50px;
 
   padding:0;
 
@@ -122,13 +126,17 @@ header ul {
 }
 
 header li {
-  width: 134px;
+  width:89px;
   float:left;
-  height:40px;
+  height:50px;
 }
 
 header li:first-child {
     border-right: 1px solid #d2d2d2;
+}
+
+header li:last-child {
+    border-left: 1px solid #d2d2d2;
 }
 
 header ul a {

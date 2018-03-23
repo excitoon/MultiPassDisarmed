@@ -1,7 +1,7 @@
 {
     "applications": {
         "gecko": {
-            "id": "multipass@gilles.crettenand.info",
+            "id": "multipassdisarmed@random.supplies",
             "strict_min_version": "49.0"
         }
     },

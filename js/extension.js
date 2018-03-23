@@ -1,7 +1,6 @@
 /*global chrome:True*/
 'use strict';
 
-var Analytics = require('./analytics');
 var CredentialStorage = require('./credential_storage');
 
 // the popin and option pane needs this to save the temporary item
@@ -83,33 +82,12 @@ var Extension = function () {
         return {requestHeaders: status.requestHeaders};
     }
 
-    function suggester(status) {
-        if(statuses.hasOwnProperty(status.tabId)) {
-            if(statuses[status.tabId].credentials.length == 0) {
-                Analytics.event('BackgroundApp', 'no credentials found');
-            } else {
-                if (statuses[status.tabId].credentials.length > 1) {
-                    Analytics.event('BackgroundApp', 'multiple credentials', statuses[status.tabId].credentials.length);
-                }
-
-                if (statuses[status.tabId].count > max_try) {
-                    Analytics.event('BackgroundApp', 'failed authentication');
-                } else {
-                    // This event isn't of much interests and we are currently over the hit limit
-                    // Analytics.event('BackgroundApp', 'authentication sent');
-                }
-            }
-        }
-    }
-
     function init() {
         if(chrome.webRequest.onAuthRequired) {
             chrome.webRequest.onAuthRequired.addListener(retrieveCredentials, {urls: ['<all_urls>']}, ['blocking']);
         } else {
             chrome.webRequest.onBeforeSendHeaders.addListener(serveCredentialsAsHeader, {urls: ['<all_urls>']}, ['blocking', 'requestHeaders']);
         }
-
-        chrome.webRequest.onCompleted.addListener(suggester, {urls: ['<all_urls>']});
 
         chrome.tabs.onUpdated.addListener(showBadgeForTabId);
         chrome.tabs.onActivated.addListener(showBadgeForStatus);
@@ -120,6 +98,4 @@ var Extension = function () {
     };
 }();
 
-// This hit isn't that interesting and we are over the limit
-// Analytics.view('Background Page');
 Extension.init();
